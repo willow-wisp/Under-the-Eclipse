@@ -8,9 +8,9 @@ creation commands.
 
 """
 from evennia import DefaultCharacter
+from evennia.contrib.ingame_python.typeclasses import EventCharacter
 
-
-class Character(DefaultCharacter):
+class Character(EventCharacter):
     """
     The Character defaults to reimplementing some of base Object's hook methods with the
     following functionality:
