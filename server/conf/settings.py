@@ -34,7 +34,7 @@ from evennia.settings_default import *
 # This is the name of your game. Make it catchy!
 SERVERNAME = "Under the Eclipse"
 WEBSERVER_PORTS = [(30000, 30005)]
-WEBSOCKET_CLIENT_PORTS = 30001
+WEBSOCKET_CLIENT_PORT = 30001
 
 ######################################################################
 # Settings given in secret_settings.py override those in this file.
